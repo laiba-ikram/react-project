@@ -1,0 +1,90 @@
+.hero-section {
+  margin-top: 50px;
+  background: linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)),
+    url("./img/service-1.jpg") center/cover no-repeat;
+  padding: 70px;
+  margin-bottom: 40px;
+}
+
+.hero-section-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hero-content svg {
+  margin-right: 20px;
+}
+.hero-content h2 {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50.4px;
+}
+.hero-text {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.hero-button button {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  background-color: #ffb400;
+  padding: 24px;
+}
+
+.svg-block {
+  display: flex;
+  flex-direction: row;
+  /* color: black; */
+  align-items: center;
+  justify-content: center;
+}
+.svg-block-inner {
+  margin-right: 10px;
+}
+.svg-block-content h5 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50.4px;
+  margin-bottom: 0px;
+}
+.svg-block-content p {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 180% */
+  letter-spacing: 0.6px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.text-box div {
+  color: var(--construction-gray, #666);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 180% */
+}

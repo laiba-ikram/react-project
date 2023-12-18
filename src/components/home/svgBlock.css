@@ -1,0 +1,29 @@
+.block-inner {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.block-detail {
+  display: flex;
+  flex-direction: column;
+}
+.block-detail h5 {
+  color: var(--construction-black, #2a2a2a);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50.4px; /* 315% */
+}
+
+.block-detail p {
+  color: var(--construction-gray, #666);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 180% */
+  letter-spacing: 0.6px;
+}
+.blocks {
+  display: flex;
+  justify-content: center;
+}

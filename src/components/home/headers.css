@@ -1,0 +1,64 @@
+.home-header-inner {
+  margin: 40px;
+  padding: 30px;
+}
+.home-header-one {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: repeating-linear-gradient(
+      rgba(34, 34, 34, 0.8),
+      rgba(34, 34, 34, 0.8)
+    ),
+    url("./img/home-1.jpeg") center/cover no-repeat;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-header-inner h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 109.375% */
+}
+
+.home-header-inner p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 32px;
+}
+.home-header-inner h6 {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  padding: 20px;
+  background-color: #ffb400;
+}
+.home-header-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* hedaer-two */
+.home-header-two {
+  background: repeating-linear-gradient(
+      rgba(34, 34, 34, 0.8),
+      rgba(34, 34, 34, 0.8)
+    ),
+    url("./img/home-2.jpeg") center/cover no-repeat;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

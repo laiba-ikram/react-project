@@ -1,0 +1,47 @@
+.hero-section-2 {
+  background: repeating-linear-gradient(
+      rgba(34, 34, 34, 0.8),
+      rgba(34, 34, 34, 0.8)
+    ),
+    url("../../img/project1.jpg") center/cover no-repeat;
+  padding: 120px 45px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+
+.hero-section-inner-1 {
+  color: #f7f7f7;
+  padding: 32px;
+  margin: 12px 30px;
+}
+
+.hero-section-content {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hero-section-content svg {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+.hero-section-content h2 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50.4px;
+}
+.hero-section-content p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.hero-section-inner-2 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
